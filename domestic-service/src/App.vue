@@ -4,9 +4,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-   <router-view></router-view>
+      <div>
+        <!-- <el-button type="primary">Primary</el-button> -->
+        <router-view></router-view>
+      </div>
+      <HelloWorld/>
   </div>
-  <HelloWorld  />
+  
+  
 </template>
 
 <style lang="scss" scoped>
